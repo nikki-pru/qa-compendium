@@ -27,6 +27,8 @@ QA Compendium
    :caption: CI Analysis
    :name: ci-analysis
    
+   ci-analysis/ci-analysis-index.rst
+   
 .. toctree::
   :maxdepth: 2
   :caption: Poshi
@@ -39,6 +41,14 @@ QA Compendium
   :caption: Release
   :name: release
   
+  releases/releases-index.rst
+  
+.. toctree::
+  :maxdepth: 1
+  :caption: Commerce
+  :name: commerce
+  
+  commerce/commerce-index.rst  
   
 .. Links:
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
