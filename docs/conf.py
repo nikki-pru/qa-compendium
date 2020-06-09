@@ -150,7 +150,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'QACompendium', u'QA Compendium Documentation',
-     author, 'QACompendium', 'One line description of project.',
+     author, 'QACompendium', 'Liferay QA',
      'Miscellaneous'),
 ]
 
