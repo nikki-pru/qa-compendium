@@ -16,7 +16,7 @@ QA Compendium
           * Ask a Poshi-specific question, on the `Poshi Slack channel`_;
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: General
    :name: onboarding
 

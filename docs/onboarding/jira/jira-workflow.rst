@@ -31,15 +31,5 @@ A story ticket that is ready for testing will be in the READY FOR QA status.
 .. note::
   Before assigning yourself to a ticket that is In Progress or In QA, check with the current assignee. They could have already started working on the ticket which could lead to you doing unnecessary, double work.
 
-
-**Continue on to:**
-
-.. toctree::
-  :maxdepth: 1
-  :name: toc-jira
-  
-  jira-standards
-  
-
 .. Links:
 .. _JIRA: http://issues.liferay.com

@@ -1,4 +1,4 @@
-Commenting Standards
+JIRA Commenting Standards
 =====================
 
 Since JIRA is used by most business functions in Liferay, it is good to have some standards when interacting with others over tickets. These are not arbitrary standards but are best practices we’ve developed over the years to efficiently get information across to a developer, another viewer, or for reporting purposes. We work with developers and team members across different time zones and languages and the more efficiently we get our point across the first time, the faster we get results.

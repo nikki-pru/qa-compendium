@@ -51,13 +51,3 @@ In the end, your folder should look something like this:
 
 .. _Liferay Portal on Github: http://github.com/liferay/liferay-portal
 .. _generate an SSH Key: https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
-
-**Continue on to:**
-
-.. toctree::
-  :maxdepth: 1
-  :name: toc-source-code
-    
-  building-master.rst
-  syncing.rst
-  summary.rst
