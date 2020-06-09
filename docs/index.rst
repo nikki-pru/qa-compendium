@@ -28,11 +28,11 @@ QA Compendium
    :name: ci-analysis
    
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :caption: Poshi
   :name: poshi
   
-  poshi/index.rst
+  poshi/poshi-index.rst
   
 .. toctree::
   :maxdepth: 1
