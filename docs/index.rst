@@ -21,6 +21,7 @@ QA Compendium
    :name: onboarding
 
    onboarding/onboarding-index.rst
+   setup/setup-index.rst
 
 .. toctree::
    :maxdepth: 1
