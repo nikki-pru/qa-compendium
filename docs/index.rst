@@ -38,7 +38,7 @@ QA Compendium
   poshi/poshi-index.rst
   
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :caption: Release
   :name: release
   
