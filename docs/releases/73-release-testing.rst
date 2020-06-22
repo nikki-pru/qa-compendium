@@ -41,6 +41,7 @@ Below is a general timeline on each of the main steps of the release testing pro
 Test Scope
 ----------
 **Regression Testing**
+
 Below is a high level overview of the scope of testing performed by type. Releasability is determined based on the severity of the issues discovered through these test failures. Generally, release testing relies on automated test analysis where only critical flows that were not automated are executed manually as well as a very basic smoke test.
 
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
