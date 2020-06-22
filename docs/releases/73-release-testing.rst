@@ -16,6 +16,8 @@ QA will perform quality control testing and report results in the form of a Test
 
 Test Schedule
 -------------
+Generally, publishing will begin on Wednesday to build that same evening. Test results are normally available during the end of China's day and toward the beginning of day for Spain and Hungary. 
+
 Below is a general timeline on each of the main steps of the release testing process. Note that if any blocker is discovered at any of these steps the process restarts. QA is expected to complete testing and analysis within 1 business day. If the build is not completed by 3PM PST, the testing will be completed within 2 business days because a product team will miss their opportunity to test and analyze automated test results.
 
 .. note::
@@ -30,7 +32,7 @@ Below is a general timeline on each of the main steps of the release testing pro
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Instant            | Once the results are completed a Test Lead, Senior Test Engineer, or above will notify the QA team that the results are available for analysis on Slack            |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1-2 business days  | All global teams will complete test analysis and execution and update the Test Report by the end of their business day.                                            |
+| 1-2 Business Days  | All global teams will complete test analysis and execution and update the Test Report by the end of their business day.                                            |
 |                    | If the build is completed after 3PM PST the Test Report will need an additional business day for the team to complete                                              |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 1 Hour             | Test Manager will review the Test Report to confirm completion, will notify the Release Manager through Slack #rle-build, and deliver the finalized Test Report    |
