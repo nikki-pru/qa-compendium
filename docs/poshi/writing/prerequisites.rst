@@ -19,5 +19,3 @@ Below are some suggested tools for writing Poshi
 .. _`step #6`: https://github.com/liferay/liferay-qa-ee/blob/liferay-qa-docs/tools/pages/sublime-tricks.markdown#sublime-tricks
 .. _`QA Toolbox`: https://github.com/liferay/liferay-qa-ee/tree/liferay-qa-docs/tools/pages
 
-
-testt cahnges
