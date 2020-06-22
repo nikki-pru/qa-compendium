@@ -31,7 +31,6 @@ Below is a general timeline on each of the main steps of the release testing pro
 | Instant            | Once the results are completed a Test Lead, Senior Test Engineer, or above will notify the QA team that the results are available for analysis on Slack            |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 1-2 business days  | All global teams will complete test analysis and execution and update the Test Report by the end of their business day.                                            |
-|                    |                                                                                                                                                                    |
 |                    | If the build is completed after 3PM PST the Test Report will need an additional business day for the team to complete                                              |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 1 Hour             | Test Manager will review the Test Report to confirm completion, will notify the Release Manager through Slack #rle-build, and deliver the finalized Test Report    |
@@ -52,11 +51,9 @@ Below is a high level overview of the scope of testing performed by type. Releas
 | Integration | All integration tests are executed and analyzed                                                                                                                                                 |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Environment | Smoke testing is executed and analyzed for every build. With heavier focus on environments factors that are most used by customers and are on application servers that Liferay is bundled with. |
-|             |                                                                                                                                                                                                 | 
 |             | Before the DXP release full environment testing will be performed. Environment specific regression is expected to be low during the stabilization period of development.                        |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
 | Performance | Rough performance testing is done through manual testing and our automated test performance. Many of our tests would fail if there are critical issues with performance.                        |
-|             |                                                                                                                                                                                                 |
 |             | Performance testing is currently handled by a separate team and will be done before the DXP release.                                                                                            |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Security    | Security testing is automated and results are analyzed for every release                                                                                                                        |
