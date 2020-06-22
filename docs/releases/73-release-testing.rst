@@ -77,10 +77,11 @@ Below is a high level overview of the scope of testing performed by type. Releas
 Test Process
 ------------
 
-#. Release Manager notifies QA that a new build is ready to test via Slack in #rle-build.
+#. Release Manager notifies QA that a new build is ready to test via Slack in `#rle-build`_.
 #. Test Leads / Senior Test Engineers will trigger automation tests to execute against the build.
-#. Once testing is complete the Test Lead / Senior Test Engineer will Autofill the build and assign a Testray Task to all Test Engineers.
-#. The Test Lead / Senior Test Engineer will then provide a link to the team in #d-quality-assurance which contains a link to the:
+#. Once testing is complete the Test Lead / Senior Test Engineer will Autofill the build and assign a `Testray`_ Task to all Test Engineers.
+#. The Test Lead / Senior Test Engineer will then provide a link to the team in `#d-quality-assurance`_ which contains a link to the following
+
     * Bundle
     * Testray Task
     * Jenkins Report
@@ -116,4 +117,7 @@ Expectations
   * All Fix Priority 4 issues must be evaluated as a blocker or not and updated accordingly
   * Fix Priority 4 issues that are confirmed not blockers should contain the known-issues label
 
-
+.. Links:
+.. _`#rle-build`: https://liferay.slack.com/archives/CLA7D1CNL
+.. _`Testray`: http://testray.liferay.com
+.. _`#d-quality-assurance`: https://liferay.slack.com/archives/CL84ZPHAT
