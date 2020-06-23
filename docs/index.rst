@@ -13,7 +13,9 @@ QA Compendium
 
           * Reach someone on the `LRQA Slack channel`_; or,
           
-          * Ask a Poshi-specific question, on the `Poshi Slack channel`_;
+          * Ask a Poshi-specific question, on the `Poshi Slack channel`_; or,
+          
+          * For questions about this Compendium, please reach us on the `QA Operations Slack channel`_.
 
 .. toctree::
    :maxdepth: 2
@@ -54,3 +56,4 @@ QA Compendium
 .. Links:
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
 .. _Poshi Slack channel: https://liferay.slack.com/messages/CD7939WBE
+.. _QA Operations Slack channel: https://liferay.slack.com/archives/CMKTNKN9X
