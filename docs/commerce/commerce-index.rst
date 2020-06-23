@@ -2,7 +2,7 @@
 Commerce Testing
 ================
 
-Snapshots Download Links
+Snapshot Download Links
 ------------------------
 
 Download the snapshots from the links below. Select the most recent build and download the zipped file suffixed with **-all**.
