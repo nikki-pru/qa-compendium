@@ -24,7 +24,7 @@ QA Compendium
    setup/setup-index.rst
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: CI Analysis
    :name: ci-analysis
    
@@ -45,7 +45,7 @@ QA Compendium
   releases/releases-index.rst
   
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :caption: Commerce
   :name: commerce
   
