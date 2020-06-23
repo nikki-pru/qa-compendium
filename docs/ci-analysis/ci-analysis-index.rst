@@ -8,3 +8,4 @@ CI Failures Analysis
 
    how-to-analyze-failures.rst
    stable-job-analysis-guide.rst
+   disabling-tests.rst
