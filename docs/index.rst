@@ -1,8 +1,3 @@
-.. QA Compendium documentation master file, created by
-   sphinx-quickstart on Mon Jun  8 11:37:19 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 =============
 QA Compendium
 =============
@@ -17,42 +12,54 @@ QA Compendium
           
           * For questions about this Compendium, please reach us on the `QA Operations Slack channel`_.
 
+.. Getting Started
 .. toctree::
-   :maxdepth: 2
-   :caption: General
-   :name: onboarding
+  :caption: Getting Started
+  :glob:
+  :hidden:
+  :maxdepth: 2
+         
+  general-qa/onboarding/index*
+  general-qa/portal-basics/index*
+  general-qa/issue-project-tracking-with-jira/index*
+  general-qa/scm-version-control-with-github/index*
+  general-qa/testing-at-liferay/*
 
-   onboarding/onboarding-index.rst
-   setup/setup-index.rst
+.. Products
+.. toctree::
+  :caption: Products
+  :glob:
+  :hidden:
+  :maxdepth: 2
+  
+  products/product-analytics-cloud/index*
+  products/product-commerce/index*
+  products/product-dxp-cloud/index*
+  products/product-lris/index*
+  products/product-portal/index*
+  
+.. Tools
+.. toctree::
+  :caption: Tools
+  :glob:
+  :hidden:
+  :maxdepth: 2
+    
+  tools/tools-ci/index*
+  tools/tools-github/index*
+  tools/tools-jira/index*
+  tools/tools-poshi/index*
+  tools/tools-spira/index*
 
+.. Testing
 .. toctree::
-   :maxdepth: 2
-   :caption: CI Analysis
-   :name: ci-analysis
-   
-   ci-analysis/ci-analysis-index.rst
-   
-.. toctree::
+  :caption: Testing
+  :glob:
+  :hidden:
   :maxdepth: 2
-  :caption: Poshi
-  :name: poshi
   
-  poshi/poshi-index.rst
-  
-.. toctree::
-  :maxdepth: 2
-  :caption: Release
-  :name: release
-  
-  releases/releases-index.rst
-  
-.. toctree::
-  :maxdepth: 2
-  :caption: Commerce
-  :name: commerce
-  
-  commerce/commerce-index.rst  
-  
+  testing/index*
+
 .. Links:
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
 .. _Poshi Slack channel: https://liferay.slack.com/messages/CD7939WBE
