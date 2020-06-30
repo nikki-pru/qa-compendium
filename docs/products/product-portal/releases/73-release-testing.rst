@@ -113,6 +113,10 @@ Expectations
   * Teams are expected to identify the root cause as critical issues should never be discovered during release testing
   * Teams are expected to work out a prevention plan
 
+**Link all blocker issues to the Release Testing ticket**
+  * Link blockers to the release testing ticket for better logging
+  * Example ticket: `7.3 CE GA4 Testing`_
+
 **All Fix Priority 4 issues must be reviewed and labeled**
   * All Fix Priority 4 issues must be evaluated as a blocker or not and updated accordingly
   * Fix Priority 4 issues that are confirmed not blockers should contain the known-issues label
@@ -121,3 +125,4 @@ Expectations
 .. _`#rle-build`: https://liferay.slack.com/archives/CLA7D1CNL
 .. _`Testray`: http://testray.liferay.com
 .. _`#d-quality-assurance`: https://liferay.slack.com/archives/CL84ZPHAT
+.. _`7.3 CE GA4 Testing`: https://issues.liferay.com/browse/LRQA-58728
