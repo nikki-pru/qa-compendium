@@ -19,37 +19,99 @@ QA Compendium
   :hidden:
   :maxdepth: 2
          
-  general-qa/onboarding/index*
-  general-qa/portal-basics/index*
-  general-qa/issue-project-tracking-with-jira/index*
-  general-qa/scm-version-control-with-github/index*
-  general-qa/testing-at-liferay/*
+  general-qa/0*
+  general-qa/*
 
 .. Products
 .. toctree::
-  :caption: Products
+  :caption: Analytics Cloud
   :glob:
   :hidden:
   :maxdepth: 2
   
-  products/product-analytics-cloud/index*
-  products/product-commerce/index*
-  products/product-dxp-cloud/index*
-  products/product-lris/index*
-  products/product-portal/index*
+  analytics-cloud/*
+
+.. Products
+.. toctree::
+  :caption: Commerce
+  :glob:
+  :hidden:
+  :maxdepth: 2
+  
+  commerce/*
+
+.. Products
+.. toctree::
+  :caption: DXP Cloud
+  :glob:
+  :hidden:
+  :maxdepth: 2
+  
+  dxp-cloud/*
+
+.. Products
+.. toctree::
+  :caption: Information Systems
+  :glob:
+  :hidden:
+  :maxdepth: 2
+  
+  is/*
+
+.. Products
+.. toctree::
+  :caption: Liferay Portal
+  :glob:
+  :hidden:
+  :maxdepth: 2
+  
+  portal/portal-basics/0*
+  *
   
 .. Tools
 .. toctree::
-  :caption: Tools
+  :caption: CI
   :glob:
   :hidden:
   :maxdepth: 2
     
-  tools/tools-ci/index*
-  tools/tools-github/index*
-  tools/tools-jira/index*
-  tools/tools-poshi/index*
-  tools/tools-spira/index*
+  ci/index*
+  
+.. Tools
+.. toctree::
+  :caption: Github
+  :glob:
+  :hidden:
+  :maxdepth: 2
+    
+  github/index*
+  
+.. Tools
+.. toctree::
+  :caption: JIRA
+  :glob:
+  :hidden:
+  :maxdepth: 2
+      
+  jira/index*
+
+.. Tools
+.. toctree::
+  :caption: Poshi
+  :glob:
+  :hidden:
+  :maxdepth: 3
+      
+  poshi/index*
+
+.. Tools
+.. toctree::
+  :caption: Spira
+  :glob:
+  :hidden:
+  :maxdepth: 2
+      
+  spira/index*
 
 .. Testing
 .. toctree::

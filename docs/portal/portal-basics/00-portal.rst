@@ -11,12 +11,6 @@ How does it work?
 Liferay provides the tools for our customers/users to build whatever solution they need. All the standard applications (for example, a login feature, site templates, user management or a document library) needed to create a site are provided out of the box. To get started, all a user needs are the Portal code base and the run environment which consists of an application server, and a database. But wait! We bundle those in, too.
 Let’s try starting up a portal instance on our local machines.
 
-.. toctree::
-  :glob:
-  :maxdepth: 2
-  
-  *
-
 .. Links:
 .. _internal purposes: https://www.liferay.com/resources?categoryId=93364&categoryId=93352
 .. _customer-facing sites: https://www.liferay.com/resources?categoryId=17993&categoryId=93352
