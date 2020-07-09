@@ -65,8 +65,7 @@ QA Compendium
   :hidden:
   :maxdepth: 2
   
-  portal/portal-basics/0*
-  *
+  portal/releases/*
   
 .. Tools
 .. toctree::
