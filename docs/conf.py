@@ -42,8 +42,7 @@ release = u''
 # For markdown: recommonmark
 # For Tabs: https://sphinxcontrib-contentui.readthedocs.io/en/latest/installation.html
 extensions = ['recommonmark',
-    'sphinx_tabs.tabs',
-    'sphinxcontrib.contentui'
+    'sphinx_tabs.tabs'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
