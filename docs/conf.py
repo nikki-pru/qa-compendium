@@ -12,10 +12,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('exts'))
 
+import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -41,6 +42,7 @@ release = u''
 # For markdown: recommonmark
 # For Tabs: https://sphinxcontrib-contentui.readthedocs.io/en/latest/installation.html
 extensions = ['recommonmark',
+    'sphinx_tabs.tabs',
     'sphinxcontrib.contentui'
 ]
 
@@ -95,6 +97,8 @@ html_context = {
         '_static/theme_overrides.css',  # override wide tables in RTD theme
         ],
      }
+
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
