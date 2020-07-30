@@ -12,15 +12,14 @@ QA Compendium
           
           * For questions about this Compendium, please reach us on the `QA Operations Slack channel`_.
 
+
 .. Getting Started
 .. toctree::
   :caption: Getting Started
   :glob:
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
          
   general-qa/0*
-  general-qa/*
 
 .. Products
 .. toctree::
@@ -62,10 +61,10 @@ QA Compendium
 .. toctree::
   :caption: Liferay Portal
   :glob:
-  :hidden:
   :maxdepth: 2
   
   portal/releases/*
+  portal/environment-setup/index-envi-setup.rst
   
 .. Tools
 .. toctree::
@@ -75,6 +74,7 @@ QA Compendium
   :maxdepth: 2
     
   ci/index*
+  ci/*
   
 .. Tools
 .. toctree::
@@ -98,8 +98,7 @@ QA Compendium
 .. toctree::
   :caption: Poshi
   :glob:
-  :hidden:
-  :maxdepth: 3
+  :maxdepth: 2
       
   poshi/index*
 
@@ -107,10 +106,10 @@ QA Compendium
 .. toctree::
   :caption: Spira
   :glob:
-  :hidden:
   :maxdepth: 2
       
   spira/index*
+  spira/*
 
 .. Testing
 .. toctree::
