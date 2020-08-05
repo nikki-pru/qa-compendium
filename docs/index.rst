@@ -1,6 +1,6 @@
-=============
-QA Compendium
-=============
+========================
+QA Compendium/Compendio
+========================
 
 *A collection of article, guides, and tools to assist you in your QA journey.*
 
@@ -119,6 +119,15 @@ QA Compendium
   :maxdepth: 2
   
   testing/index*
+  
+.. Tools
+.. toctree::
+  :caption: Tools
+  :glob:
+  :hidden:
+  :maxdepth: 2
+  
+  tools/*
 
 .. Links:
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
