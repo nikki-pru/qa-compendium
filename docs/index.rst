@@ -12,6 +12,8 @@ QA Compendium/Compendio
           
           * For questions about this Compendium, please reach us on the `QA Operations Slack channel`_.
 
+.. tip::
+  `To add articles/docs to this site, see here`_.
 
 .. Getting Started
 .. toctree::
@@ -124,8 +126,7 @@ QA Compendium/Compendio
 .. toctree::
   :caption: Tools
   :glob:
-  :hidden:
-  :maxdepth: 2
+  :maxdepth: 1
   
   tools/*
 
@@ -133,3 +134,4 @@ QA Compendium/Compendio
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
 .. _Poshi Slack channel: https://liferay.slack.com/messages/CD7939WBE
 .. _QA Operations Slack channel: https://liferay.slack.com/archives/CMKTNKN9X
+.. _To add articles/docs to this site, see here: /tools/readthedocs.rst
