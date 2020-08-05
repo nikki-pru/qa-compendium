@@ -13,7 +13,7 @@ QA Compendium/Compendio
           * For questions about this Compendium, please reach us on the `QA Operations Slack channel`_.
 
 .. tip::
-  `To add articles/docs to this site, see here`_.
+  To add articles or docs to this site, see this article on `Contributing to Documentation`_.
 
 .. Getting Started
 .. toctree::
@@ -134,4 +134,4 @@ QA Compendium/Compendio
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
 .. _Poshi Slack channel: https://liferay.slack.com/messages/CD7939WBE
 .. _QA Operations Slack channel: https://liferay.slack.com/archives/CMKTNKN9X
-.. _To add articles/docs to this site, see here: /tools/readthedocs.rst
+.. _Contributing to Documentation: tools/contributing.rst
