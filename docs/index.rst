@@ -75,7 +75,6 @@ QA Compendium/Compendio
   :hidden:
   :maxdepth: 2
     
-  ci/index*
   ci/*
   
 .. Tools
