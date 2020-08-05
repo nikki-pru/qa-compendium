@@ -107,7 +107,7 @@ QA Compendium/Compendio
 .. toctree::
   :caption: Spira
   :glob:
-  :maxdepth: 2
+  :maxdepth: 1
       
   spira/index*
   spira/*
