@@ -13,7 +13,7 @@ The best resources to reference when creating custom graphs and reports in Spira
 To date, the quickest way to find out what columns are available in a table is to run this ESQL query in the report/graph editor:
 ::
   select value R
-  from {tableName}
+  from SpiraTestEntities.R_{tableName}
   where PROJECT_ID = ${ProjectId}
 
 where ``{tableName}`` is the Spira Entity table. 
