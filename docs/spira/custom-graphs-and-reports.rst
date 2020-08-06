@@ -10,7 +10,7 @@ The best resources to reference when creating custom graphs and reports in Spira
 
 * There is also a wealth of information available in the `Inflectra Knowledge Base`_.
 
-To date, the quickest way to find out what tables or columns are available is to run this ESQL query in the report/graph editor:
+To date, the quickest way to find out what columns are available in a table is to run this ESQL query in the report/graph editor:
 ::
   select value R
   from {tableName}
