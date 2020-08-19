@@ -67,6 +67,7 @@ QA Compendium/Compendio
   
   portal/releases/*
   portal/environment-setup/index-envi-setup.rst
+  portal/how-to/index-how-to.rst
   
 .. Tools
 .. toctree::
