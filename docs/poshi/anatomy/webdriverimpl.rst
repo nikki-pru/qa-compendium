@@ -34,5 +34,5 @@ WebDriverImpl
 Because this BaseWebDriver is an abstract base class, Poshi cannot directly execute this WebDriver class. Each browser will extend BaseWebDriverImpl in a class such as FirefoxWebDriverImpl and override any methods or initializations that may require slight changes due to browser differences. These Browser WebDrivers are the ones that will directly run the Poshi tests and can be found `here`_.
 
 
-.. _`BaseWebDriverImpl`: https://github.com/liferay/com-liferay-poshi-runner/blob/master/poshi-runner/src/main/java/com/liferay/poshi/runner/selenium/BaseWebDriverImpl.java
-.. _`here`: https://github.com/liferay/com-liferay-poshi-runner/tree/master/poshi-runner/src/main/java/com/liferay/poshi/runner/selenium
+.. _`BaseWebDriverImpl`: https://github.com/liferay/com-liferay-poshi-runner-private/blob/master/poshi-runner/src/main/java/com/liferay/poshi/runner/selenium/BaseWebDriverImpl.java
+.. _`here`: https://github.com/liferay/com-liferay-poshi-runner-private/tree/master/poshi-runner/src/main/java/com/liferay/poshi/runner/selenium
