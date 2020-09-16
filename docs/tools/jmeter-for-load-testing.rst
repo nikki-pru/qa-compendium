@@ -13,8 +13,8 @@ JMeter is a tool that our teams use for performance testing. Below are resources
 Resources from the Search team
 ------------------------------
 
-* `Performance Testing Journey <https://drive.google.com/file/d/1dRuJQHI7BeBXIqoQ-azdOYJUqd1MPW2b/view?usp=sharing>`_
+* `Performance Testing Journey <https://drive.google.com/file/d/1dRuJQHI7BeBXIqoQ-azdOYJUqd1MPW2b/view?usp=sharing>`_ (video)
 
-* `JMeter example <https://drive.google.com/file/d/1nwR9KjdXIlXMI_eazdmGt3ch0neJ0kvF/view?usp=sharing>`_
+* `JMeter example <https://drive.google.com/file/d/1nwR9KjdXIlXMI_eazdmGt3ch0neJ0kvF/view?usp=sharing>`_ (video)
 
 * `Analysis and Common Issues encountered <https://docs.google.com/presentation/d/1ixqlrGCuZDOcHZ51BcD_J2ybe37AlaDxRUcTmqDhhhI/edit?usp=sharing>`_
