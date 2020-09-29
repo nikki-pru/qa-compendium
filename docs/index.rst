@@ -22,6 +22,7 @@ QA Compendium/Compendio
   :maxdepth: 1
          
   general-qa/0*
+  general-qa/*
 
 .. Products
 .. toctree::
@@ -129,6 +130,14 @@ QA Compendium/Compendio
   :maxdepth: 1
   
   tools/*
+  
+.. Guidelines
+.. toctree::
+  :caption: Guidelines
+  :glob:
+  :maxdepth: 1
+  
+  guidelines/*
 
 .. Links:
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
