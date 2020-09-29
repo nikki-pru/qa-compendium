@@ -14,7 +14,7 @@ Expectations
 
 #. Show up on time
 
-#. Write you updates before the meeting
+#. Write your updates before the meeting
 
 #. Points that you need to announce must be in bold
 
