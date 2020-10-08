@@ -143,4 +143,4 @@ QA Compendium/Compendio
 .. _LRQA Slack channel: https://liferay.slack.com/messages/CL84ZPHAT
 .. _Poshi Slack channel: https://liferay.slack.com/messages/CD7939WBE
 .. _QA Operations Slack channel: https://liferay.slack.com/archives/CMKTNKN9X
-.. _Contributing to Documentation: tools/contributing.rst
+.. _Contributing to Documentation: /tools/contributing.rst
