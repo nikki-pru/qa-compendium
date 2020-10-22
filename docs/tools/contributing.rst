@@ -27,6 +27,7 @@ Build locally using Compendium source
 -------------------------------------
 
 It is recommended to use this format if you are doing the following:
+
 * Creating a new folder or editing an existing folder.
 * Adding images.
 * Would like to view what the article/document will look like in the readthedocs site.
