@@ -45,6 +45,8 @@ Closing bug tickets
 --------------------
 There are multiple scenarios that can happen when closing a bug ticket. As in Filing a Bug Ticket, steps and GIT ID are important to document how or when the bug was closed in case the ticket needs to be referenced later on. The first thing to do is to Manually test the ticket to see if the issue is no longer reproducible
 
+GIT ID can be found in hidden file inside of your bundle folder called ``.githash``
+
 Fixed
 ^^^^^^
 A bug ticket should be closed as fixed when there is a linked pull request. Example: `LPS-103737`_
@@ -58,6 +60,10 @@ A bug ticket should be closed as fixed when there is a linked pull request. Exam
   Portal {version} GIT ID: #######################
 
   A short summary of observed behavior.
+  
+``{appserver.version}`` is essentially Tomcat version in your bundle folder
+
+``Portal {version}`` depends on which bundle you use. If you start your bundle on your ``master-bundle``, then it should be ``master``. Otherwise it'll be bundle specific.
 
 *When steps are not included in the description*
 ::
