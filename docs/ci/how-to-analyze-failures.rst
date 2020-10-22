@@ -1,3 +1,41 @@
+How to Properly File a JIRA ticket when Analyze Acceptance
+===========================================
+
+There are two types of ticket that could be file when Analyze Acceptance
+
+LRQA Type Ticket
+----------------
+LRQA ticket can only be filed:
+
+1. When testers are unsured what type of bug they found, and failed less than 4 times in History tab. We can categorize this type of ticket as Investigate tickets.
+2. When the failure needed a test fix.
+
+When creating a new LRQA Ticket, issue type will need to be set as either ``Test Analysis`` or ``Test Fix`` based on the type of error you found in Acceptance Analysis.
+
+1. Summary will be consist of the description of the failure. (Example: Investigate AssertionError in ``Test Name``)
+2. Components will always set to ``Portal``.
+3. Project Components is optional, however if you're able to identify which component the error belongs to, then you can set Project Component to an appropriate component
+4. Description is where you will write out the appropriate description of the failure with the appropriate format.
+5. Labels for Acceptance Analysis is always set to ``qa-a``
+6. Affects Version/s will be set to the appropriate version that you're analysing.
+7. After you create the ticket, make sure to message the test lead who's in charge of that particular component and ping their name in the comment.
+
+LPS Type Ticket
+----------------
+LPS ticket can be filed:
+
+1. When tester are able to identify what type of bug they found. (Bug)
+2. When tester have seen the bug happened before. (Regression Bug)
+
+When creating a new LPS Ticket, issue type will need to be set as either ``Bug`` or ``Regression Bug`` based on the type of error you found in Acceptance Analysis.
+
+1. Summary will be consist of the description of the failure. (Example: AssertionError in ``Test Name``)
+2. Components will be set to the appropriate component that provided in the stacktrace.
+3. Affects Version/s will be set to the appropriate version that you're analysing.
+4. Description is where you will write out the appropriate description of the failure with the appropriate format.
+5. Labels for Acceptance Analysis is always set to ``qa-a``
+6. After you create the ticket, make sure to message the test lead who's in charge of that particular component and ping their name in the comment.
+
 Different Failures and How To Analyze Them
 ===========================================
 
