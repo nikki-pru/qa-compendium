@@ -1,25 +1,13 @@
 ========================
-Guide to Use RCA Tools
+Guide to Using RCA Tools
 ========================
 
 
 What is RCA?
 ----------------------
-RCA stands for Root Cause Analysis. When CI starts failing and we cannot determined the cause of why it is failing, we turn to RCA Tools to help us determine the root cause of failures.
-Root cause of failure is most likely cause by a certain commit upstream. This tool basically automates an existing process that Test Engineers have been to executing manually.
+RCA stands for Root Cause Analysis.  When an automated test fails, the root cause of failure is most likely caused by a certain commit upstream, unless it's a CI issue. When we cannot easily determine the cause of why it is failing, we turn to RCA Tools to help us determine the root cause of failures. 
 
-This tool will simply run the same test across multiple SHAs that must be manually selected by the user.
-
-We decided against making a git bisect tool for these reasons:
-
-  * Tests can fail due to unrelated issues.  For example:
-  
-    * A randomly selected SHA could fail to compile.
-    * A randomly selected SHA could fail to startup.
-    * A randomly selected SHA could fail for another reason unrelated to the target issue.
-    * A network resource could fail to respond.
-    
-  * Compiling portal takes around 30 minutes, so waiting for a result before triggering the next SHA would be too slow.
+The RCA tool automates an existing process that Test Engineers have been to executing manually (git bisect). This tool will simply run the same test across multiple SHAs that must be manually selected by the user.
 
 After the job is complete there should be a report available to view that will help a user analyze where a potential issue was introduced.
 
@@ -222,9 +210,9 @@ This is the recommended method for selecting SHAs since it is the most exact.
 
 Examples:
 
-* df1d74ed35dd515a1943205f45dd4adefd52aef1,b492fa4001980c3141723458725f1bb120c99e1f,49f469443df3235f94153c3edf0d9fcfa627b490,362f851fa1f08a28448cbdf520e4dee27ba17de6
+* ``df1d74ed35dd515a1943205f45dd4adefd52aef1,b492fa4001980c3141723458725f1bb120c99e1f,49f469443df3235f94153c3edf0d9fcfa627b490,362f851fa1f08a28448cbdf520e4dee27ba17de6``
 
-* C9dc9b031849ed0f2c4bf54152bdcaca3f53aead,362f851fa1f08a28448cbdf520e4dee27ba17de6
+* ``C9dc9b031849ed0f2c4bf54152bdcaca3f53aead,362f851fa1f08a28448cbdf520e4dee27ba17de6``
 
 
 Comparison URL:
