@@ -4,6 +4,6 @@ How To ...
 
 .. toctree::
   :glob:
-  :maxdepth: 2
+  :maxdepth: 1
     
   *
