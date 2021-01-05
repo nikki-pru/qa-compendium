@@ -11,10 +11,10 @@ Discover a Stable Job Failure
   * *Last successful build controller URL* - use this to find the commit of the last good run
   * *Controller job URL* - use this to see all of the stable job runs for that branch
 
-Notify #qa-failures
+Notify #portal-failures and #portal-ee-failures
 -------------------
 
-  #. On the `#qa-failures channel`_, let others know there is a stable job failure and what branch it’s on.
+  #. On the `#portal-failures channel`_ and/or `#portal-ee-failures channel`_, let others know there is a stable job failure and what branch it’s on.
   #. Add a magnifying glass reaction (:mag:) to your comment to indicate the issue is being investigated.
   #. Add a snippet of the failure as a reply to your comment.   
   #. Once the stable job is passing again, remove the magnifying glass reaction ``:mag:`` and add a heavy checkmark reaction ``:heavy_check_mark:`` to indicate the issue has been resolved.
@@ -85,5 +85,6 @@ Contact
 .. |image0| image:: ./img/stable-01.PNG
 .. |image1| image:: ./img/stable-02.PNG
 
-.. _`#qa-failures channel`: https://liferay.slack.com/archives/CLCD3DQLF
-.. _`How to Analyze Failures`: ./how-to-analyze-failures.rst
+.. _`#portal-failures channel`: https://liferay.slack.com/archives/CLCD3DQLF
+.. _`#portal-ee-failures channel`: https://liferay.slack.com/archives/CLCD3DQLF
+.. _`How to Analyze Failures`: https://docs.google.com/document/d/11Xc6bTGHOMKw7hzLb9I7ZUdZplDhYZP516XECIO5WpI/edit
