@@ -26,15 +26,6 @@ QA Compendium/Compendio
 
 .. Products
 .. toctree::
-  :caption: Analytics Cloud
-  :glob:
-  :hidden:
-  :maxdepth: 2
-  
-  analytics-cloud/*
-
-.. Products
-.. toctree::
   :caption: Commerce
   :glob:
   :hidden:
@@ -44,27 +35,9 @@ QA Compendium/Compendio
 
 .. Products
 .. toctree::
-  :caption: DXP Cloud
-  :glob:
-  :hidden:
-  :maxdepth: 2
-  
-  dxp-cloud/*
-
-.. Products
-.. toctree::
-  :caption: Information Systems
-  :glob:
-  :hidden:
-  :maxdepth: 2
-  
-  is/*
-
-.. Products
-.. toctree::
   :caption: Liferay Portal
   :glob:
-  :maxdepth: 2
+  :maxdepth: 1
   
   portal/releases/*
   portal/environment-setup/index-envi-setup.rst
