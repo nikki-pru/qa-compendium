@@ -7,4 +7,5 @@ Debugging Poshi Tests
 
   workflow
   timesavers
+  test-fix-exercise
   
