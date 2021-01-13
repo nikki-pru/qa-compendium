@@ -8,6 +8,13 @@ It is often unnecessary to run a test completely through to reproduce or validat
 
 See the `Poshiscript guide`_ for comments usage.
 
+Disabling Teardown
+------------------
+When running tests locally, the ``skip.tear.down`` property is pretty useful. Enabling this property skips the tearDown block for every test run allowing the test to exit after the last macro. Especially if tearDown is not explicitly needed in the test to be written/fixed, there's no need to tear down portal after every run.
+  
+1. In the same directory where test.properties is located, create a ``test.{computerName}.properties`` file. Make sure to change {computerName} to your computer name.
+2. Add the following line: ``test.skip.tear.down=true``
+
 Adjusting Poshi Runner properties
 ----------------------------------
 The poshi-runner.properties file dictates how a test runs. The default settings for Poshi Runner is found `here`_. You can add a poshi-runner-ext.properties file to override current settings.
