@@ -15,16 +15,13 @@ QA Compendium/Compendio
 .. tip::
   To add articles or docs to this site, see this article on `Contributing to Documentation`_.
 
-.. Getting Started
 .. toctree::
   :caption: Getting Started
   :glob:
   :maxdepth: 1
          
   general-qa/0*
-  general-qa/*
 
-.. Products
 .. toctree::
   :caption: Commerce
   :glob:
@@ -33,7 +30,6 @@ QA Compendium/Compendio
   
   commerce/*
 
-.. Products
 .. toctree::
   :caption: Liferay Portal
   :glob:
@@ -43,7 +39,13 @@ QA Compendium/Compendio
   portal/environment-setup/index-envi-setup.rst
   portal/how-to/index-how-to.rst
   
-.. Tools
+.. toctree::
+  :caption: Flex Onboarding
+  :glob:
+  :maxdepth: 2
+  
+  flex-onboarding/index*
+  
 .. toctree::
   :caption: CI
   :glob:
@@ -52,25 +54,6 @@ QA Compendium/Compendio
     
   ci/*
   
-.. Tools
-.. toctree::
-  :caption: Github
-  :glob:
-  :hidden:
-  :maxdepth: 2
-    
-  github/index*
-  
-.. Tools
-.. toctree::
-  :caption: JIRA
-  :glob:
-  :hidden:
-  :maxdepth: 2
-      
-  jira/index*
-
-.. Tools
 .. toctree::
   :caption: Poshi
   :glob:
@@ -78,7 +61,6 @@ QA Compendium/Compendio
       
   poshi/index*
 
-.. Tools
 .. toctree::
   :caption: Spira
   :glob:
@@ -87,16 +69,6 @@ QA Compendium/Compendio
   spira/index*
   spira/*
 
-.. Testing
-.. toctree::
-  :caption: Testing
-  :glob:
-  :hidden:
-  :maxdepth: 2
-  
-  testing/index*
-  
-.. Tools
 .. toctree::
   :caption: Tools
   :glob:
@@ -104,7 +76,6 @@ QA Compendium/Compendio
   
   tools/*
   
-.. Guidelines
 .. toctree::
   :caption: Guidelines
   :glob:

@@ -7,4 +7,4 @@ Portal
   :maxdepth: 2
   
   environment-setup/index*
-  releases/index*
+  releases/*
