@@ -60,6 +60,13 @@ QA Compendium/Compendio
   :maxdepth: 2
       
   poshi/index*
+  
+.. toctree::
+  :caption: Github
+  :glob: 
+  :maxdepth: 1
+  
+  github/*
 
 .. toctree::
   :caption: Spira
