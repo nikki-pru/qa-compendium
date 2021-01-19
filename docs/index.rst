@@ -60,6 +60,7 @@ QA Compendium/Compendio
   :maxdepth: 2
       
   poshi/index*
+  poshi/*
   
 .. toctree::
   :caption: Github
