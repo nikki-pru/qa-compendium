@@ -4,55 +4,31 @@ Test Stubs
 
 A test stub is a piece of code used as a stand-in for the actual test. To create this in the poshi ``*.testcase`` files:
 
-1. Add a commented out TODO block.
-2. Include the LPS/LRQA reference for the test.
-3. Add the test name in the same alphabetical order that our test methods are organized to avoid SF issues later on.
-4. Add the test priority and other properties.
+1. Setup a test with descriptions, priority, test name, like you regularly would.
+2. Set the test to @ignore = "true".
+3. Add a commented out TODO block with the LPS/LRQA ticket
 
 For example:
 ::
-  @priority = "5"
-  test AddBlogsEntry {
-    property testray.component.names = "WYSIWYG";
+  @description = "This is a test for LPS-125933. Check for possible not covered scenarios for Echo components in Data Engine"
+  @ignore = "true"
+  @priority = "3"
+  test ConvertWidgetPageWithWebContentsToContentPage {
+    property portal.acceptance = "false";
 
-    Blogs.addEntry(
-      entryContent = "Blogs Entry Content",
-      entryTitle = "Blogs Entry Title");
+    // TODO LPS-125933 ConvertWidgetPageWithWebContentsToContentPage pending implementation
 
-    BlogsNavigator.gotoEntryPG(
-      entryContent = "Blogs Entry Content",
-      entryTitle = "Blogs Entry Title");
-
-    BlogsEntry.viewEntryPG(
-      entryContent = "Blogs Entry Content",
-      entryTitle = "Blogs Entry Title");
   }
 
-  // TODO | LPS-123456
-  // @priority = "4"
-  // @ignore = "true"
-  // test AddBlogsEntryComment {
-  //    WebContentNavigator.openWebContentAdmin(siteURLKey = "test-site-name");
-  // }
+Using test stubs have the following advantages:
 
-  @priority = "4"
-  	test AddBlogsEntryScheduled {
-    ..
-    ..
-  }
-
-Using test stubs has the following advantages:
-
-* Test Leads or component owners are able to set test name, priority and other test properties prior to handing off the test writing to other teams.
+* Test Leads or component owners are able to set test name, priority and other test properties prior to handing off the test writing to other teams;
 * Avoid conflicts when a large number of tests need to be written; and,
-* Create a queriable backlog of tests that need to be written.
+* Create a queryable backlog of tests that need to be written.
 
-.. important::
-  
-  
 .. tip::
-  To query a list of test stubs, run ``git grep TODO *.testcase``.
-  Or ``git grep LPS-123456 *.testcase`` to query by the ticket number
+  To query a list of test stubs, run ``git grep TODO *.testcase``,
+  or ``git grep LPS-123456 *.testcase`` to query by the ticket number
   
 
 
