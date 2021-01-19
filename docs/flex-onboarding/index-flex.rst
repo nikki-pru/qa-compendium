@@ -39,10 +39,3 @@ Flex Training
   :name: source-code
 
   source-code/index-source-code-basics
-  
-.. toctree::
-  :caption: Commit Basics
-  :maxdepth: 1
-  :name: commit-Basics
-  
-  commit-basics/index-commit-basics
