@@ -7,7 +7,6 @@ Poshi is a tool developed at Liferay that allows test writers to write and autom
 
 .. toctree::
   :maxdepth: 1
-  :caption: Introduction
   :name: toc-poshi-introduction
 
   testing-a-web-based-platform
