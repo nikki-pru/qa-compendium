@@ -9,3 +9,4 @@ Writing Tests
   prerequisites
   writing-a-test-case
   building-a-test-file
+  poshi-training-exercises

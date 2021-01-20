@@ -41,6 +41,7 @@ Learn Poshi
 .. toctree::
   :maxdepth: 1
   :caption: Extras
+  :glob:
   :name: Extras
 
   appendix/json-ws
