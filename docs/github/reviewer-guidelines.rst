@@ -63,7 +63,72 @@ Both are acceptable since the branch name does not affect the commits. For best 
 Commit Standards
 ------------------
 
-If you need to make changes, follow the `Commit Standards Wiki <16-automation-test-commit-standards>`_.
+When we write commit messages, we want to write commit messages that clearly convey what the commit is doing and also provide context and reasoning for that change. Our general guidelines below help to achieve this.
+
+**General Formatting Rules:**
+
+* Use imperative voice (e.g. "Use ....", "Set ...", "Add ...."). You should be able to say "Applying this commit will [commit message]".
+* Capitalize the first word in the commit message
+* No periods at the end
+
+**Examples of properly formatted commit messages:**
+
+* LRQA-XXXXX Add locators for signing in
+* LRQA-XXXXX Break apart add web content macro command
+* LRQA-XXXXX SF
+
+**Examples of poorly formatted commit messages:**
+
+* LRQA-XXXXX Added locators for signing in
+* LRQA-XXXXX add macros for deleting web content
+* LRQA-XXXXX Change tests to use new macros.
+
+**General Guidelines:**
+
+1. Each commit should be for one task or logical change. A commit message should be able to describe what is happening in a simple sentence. If you can't do this, then your commit is likely too complicated and needs to be broken up
+
+* If you need to move a block of code or a file and also make changes to it, use two separate commits - one commit to move it and one commit to make the change. The reason for this is because if you move but also make a change, it's hard to see what changes you made (especially if what you moved was very large), and if your commit message only said "Move" then that implies that you didn't change anything
+* If you are renaming a macro and the need to move it somewhere else because it's no longer in order, use one commit to rename and one commit to sort. Similar to the previous example, this makes it easier to see what's going on. For a good example of this (outside of QA), see this pull: https://github.com/brianchandotcom/liferay-portal/pull/27253
+
+2. Commit messages should help provide context or answer why a change is being made (as opposed to just stating what someone can figure out from just looking at the changes). This isn't necessary if the commit message is context is obvious or self explanatory (e.g. Things like "Add [test name] test" or "Fix [test name] tests"). Examples:
+
+* Use "Add locators for adding a blogs entry" instead of "Add title and content field locators"
+* Use "Fix locator for AddBlogsEntry test" instead of "Change locator"
+
+3. If a change is too large or affects too many files (and not all in the same way like a search and replace), you should consider breaking the change into smaller commits
+4. If you have too many things to submit, send pieces and chunks at a time in your pull requests
+5. Special words tend to carry certain connotations. These are the words that we'll generally see in Liferay's logs:
+
+* "Sort" - used for reordering or alphabetizing
+* "SF" - used for line spacing or tabs
+* "Auto SF" - used for stuff that format-source changes
+
+6. Don't auto SF or SF yourself. It's bad practice to make mistakes and then just commit on top to fix it. Use interactive rebase or squash your SF commit with the original commit that had the mistake in it. This doesn't mean mean you can't rename something and then move it in another commit for clarity, but don't use SF or auto SF to cover for your own mistakes
+
+**Examples:**
+
+* LRQA-XXXX Add locators for adding blogs entry
+* LRQA-XXXX Optimize blogs macro by using while loop
+* LRQA-XXXX Add delete blog entry test
+* LRQA-XXXX Move editEntry macro to new file
+* LRQA-XXXX Remove unneeded lines from editEntry macro
+* LRQA-XXXX Use isset instead of equals for userBirthday var
+* LRQA-XXXX Sort
+* LRQA-XXXX SF
+
+**Benefits and advantages of committing like this:**
+* Committing in this manner is Liferay standard as well as industry standard
+* This makes reviewing faster because reviewers will spend less time figuring out what a commit is doing
+* If we ever need to revert our changes, we most likely will only need to revert the bad commit rather than having to revert everything if we put everything in one commit
+* When others look at our logs, they'll have a clearer idea of what is going on
+* This opens up more freedom to send pulls for pieces of work at a time as opposed to having to send everything all at once
+* This forces us to think about tests in a more modular way and causes us to be more organized
+
+**Resources to read:**
+
+* http://who-t.blogspot.com/2009/12/on-commit-messages.html
+* http://chris.beams.io/posts/git-commit/
+* http://www.freshconsulting.com/atomic-commits/
 
 Github Comment Standards
 ------------------------
