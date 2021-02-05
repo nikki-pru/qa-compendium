@@ -22,11 +22,13 @@ Websphere 9
 
 **Docker**
 
-`Websphere 9 Dockerfile`_ (Not recommended to build manually, long build time, high bandwidth usage)
+* `Websphere 9 Dockerfile`_ (Not recommended to build manually, long build time, high bandwidth usage)
 
-`Detailed steps for using docker`_
+* `Detailed steps for using docker`_
 
-Another script for fixpack purpose: `setup-websphere.sh`_
+* Another script for fixpack purpose: `setup-websphere.sh`_
+
+* `Walkthrough Websphere docker with portal-ee branch <websphere-portal-ee.rst>`_
 
 ------------------------------------------------------------
 
