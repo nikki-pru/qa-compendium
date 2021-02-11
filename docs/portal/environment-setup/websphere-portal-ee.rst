@@ -38,11 +38,11 @@ Setup docker files
 
   sudo docker images                                  # Lists images
 
-  sudo docker rm :raw-html-m2r:`<container_id>`       # Removes a stopped container
+  sudo docker rm `<container_id>`                     # Removes a stopped container
 
-  sudo docker rm -f :raw-html-m2r:`<container_id>`    # Forces the removal of a running container (uses SIGKILL)
+  sudo docker rm -f `<container_id>`                  # Forces the removal of a running container (uses SIGKILL)
 
-  sudo docker rmi :raw-html-m2r:`<image_id>`          # Removes an image
+  sudo docker rmi `<image_id>`                        # Removes an image
                                                       # Will fail if there is a running instance of that image i.e. container
 
 
