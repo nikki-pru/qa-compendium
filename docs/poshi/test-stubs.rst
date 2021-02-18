@@ -2,7 +2,7 @@
 Test Stubs
 ==========
 
-A test stub is a piece of code used as a stand-in for the actual test. To create this in the poshi ``*.testcase`` files:
+A test stub is a piece of code used as a stand-in for the actual test, or to document and make note of a future test improvement that we are not able to fix in the moment. To create this in the poshi ``*.testcase`` files:
 
 1. Setup a test with descriptions, priority, test name, like you regularly would.
 2. Set the test to @ignore = "true".
@@ -19,6 +19,8 @@ For example:
     // TODO LPS-125933 ConvertWidgetPageWithWebContentsToContentPage pending implementation
 
   }
+
+`See these changes for other examples of test stubs <https://github.com/brianchandotcom/liferay-portal/pull/98138/files>`_.
 
 Using test stubs have the following advantages:
 
