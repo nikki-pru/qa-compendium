@@ -28,7 +28,7 @@ Websphere 9
 
 * Another script for fixpack purpose: `setup-websphere.sh`_
 
-* `Walkthrough Websphere docker with portal-ee branch <websphere-portal-ee.rst>`_
+* `Walkthrough Websphere docker with portal-ee branch <./websphere-portal-ee.rst>`_
 
 ------------------------------------------------------------
 

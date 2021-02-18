@@ -1,6 +1,6 @@
-==============================================
+=============================================================
 Websphere9 - build from a liferay-portal-ee branch in docker
-==============================================
+=============================================================
 
 Environment Details
 -------------------
@@ -23,7 +23,7 @@ Prerequisites
 
 
 * docker
-* `build-portal-ee.sh <build-portal-ee.sh>`_
+* `build-portal-ee.sh`_
 * `websphere9docker.tar <https://drive.google.com/file/d/1-eWlIqUXHlv4y15igLsYyqu6rWEvwqYe/view?usp=sharing>`_
 
 Setup docker files
@@ -48,7 +48,7 @@ Setup docker files
 
 * Place the following files in same folder:
 
-  * `build-portal-ee.sh <build-portal-ee.sh>`_
+  * `build-portal-ee.sh`_
   * `websphere9docker.tar <https://drive.google.com/file/d/1-eWlIqUXHlv4y15igLsYyqu6rWEvwqYe/view?usp=sharing>`_
 
 * Navigate to folder with websphere9docker.tar and load the docker image and container
@@ -121,3 +121,7 @@ Setup websphere9 server
   * check that liferay has started
 
 * login to http://localhost:8080
+
+
+
+.. _build-portal-ee.sh: https://drive.google.com/drive/folders/12XfGMvgAL8UoNyJaLtpkZvlngu6uh_RT
