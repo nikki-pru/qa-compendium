@@ -20,7 +20,6 @@ Please make sure you have access to the following, or have it installed on your 
 #. Github account
 #. Access to `QA contacts on Airtable`_
 #. Access to issues.liferay.com (using your Liferay credentials)
-#. Access to `Spira`_. Set your username to your first initial and then last name, for example, Joe Bloggs' username will be jbloggs.
 #. JAVA jdk 8
 #. MySQL 5.7
 #. `VPN`_

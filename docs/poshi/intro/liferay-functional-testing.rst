@@ -20,9 +20,9 @@ The benefit of automated testing is that tests can be run as many times as neede
 
 Additionally, Liferay's GitHub account is connected with a CI bot that allows any Liferay team member to trigger Jenkins execution different suites of tests on code changes sent in a GitHub pull request. Tests will run and report results directly in a comment on the GitHub pull request.
 
-Continuous Results (Testray/Spira)
+Continuous Results (Testray)
 ----------------------------------
-As continuous testing is happening, we must be able to collect, parse, and read the test results in a way that helps to make sense of the data received from all the test runs. The current test management solution was developed in-house and is known as `Testray`_. Jenkins test results are sent to Testray where results and history can easily be viewed and analyzed. As of 2019, Liferay QA is in the process of moving test results to a new system that should provide us even more test results clarity and tracking called `SpiraTest`_. Please reach out to your trainer for more information on this.
+As continuous testing is happening, we must be able to collect, parse, and read the test results in a way that helps to make sense of the data received from all the test runs. The current test management solution was developed in-house and is known as `Testray`_. Jenkins test results are sent to Testray where results and history can easily be viewed and analyzed. Please reach out to your trainer for more information.
 
 .. _`Apache Ant`: https://ant.apache.org/
 .. _`test.properties`: https://github.com/liferay/liferay-portal/blob/master/test.properties

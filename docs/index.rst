@@ -69,10 +69,12 @@ QA Compendium/Compendio
   
   github/*
 
-.. toctree::
-  :caption: Spira
-  :glob:
-  :maxdepth: 1
+..
+   Commented out section because Spira is deprecated but keeping it here for reference until 30-Jun-2021
+   .. toctree::
+    :caption: Spira
+    :glob:
+    :maxdepth: 1
       
   spira/index*
   spira/*
