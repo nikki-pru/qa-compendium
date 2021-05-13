@@ -1,5 +1,9 @@
+===================
 JSON-WS with Poshi
 ===================
+
+.. note::
+  For a primer on JSON Paths, see this article on `Introduction to JSON Paths <https://www.baeldung.com/guide-to-jayway-jsonpath>`_.
 
 Liferay’s Remote Services can be called within Poshi by taking advantage of functions from `JSONCurlUtil.java`_ to send a request to `Liferay’s JSON WS API (JSON Web Service API)`_. Every service within a Model’s ``*ServiceImpl.java`` (`example`_) is available to be invoked unless it contains the annotation ``@JSONWebService(mode = JSONWebServiceMode.IGNORE)``. To view a list of available services, see ``${baseURL}/api/jsonws`` (localhost:8080/api/jsonws).
 
