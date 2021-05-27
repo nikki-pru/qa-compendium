@@ -27,6 +27,9 @@ Within this file, you should declare specifically where the "project" directory 
 .. note::
   ``{directory}`` should be where your master-portal folder is, making the master-bundles folder parallel to master-portal.
 
+.. note::
+  The Tomcat version may be different depending on the version of Portal you are trying to run. Please check the `app.server.properties <https://github.com/liferay/liferay-portal/blob/master/app.server.properties>`_ for the latest Tomcat version.
+
 Let’s test out our property files. On your master-portal directory, run
 	``ant -f build-dist.xml unzip-tomcat``
 

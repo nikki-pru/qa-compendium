@@ -8,6 +8,10 @@ Starting Up A Portal instance
 |image0|
 
 4. On CMD/Terminal, navigate to {liferay.home}/tomcat-9.0.17/bin.
+
+  .. note::
+    The Tomcat version may be different depending on the version of Portal you are trying to run. Please check the `app.server.properties <https://github.com/liferay/liferay-portal/blob/master/app.server.properties>`_ for the latest Tomcat version.
+    
 5. Start Tomcat
   * On Windows: ``catalina run``
   * On Linux/Mac: ``./catalina.sh run``
