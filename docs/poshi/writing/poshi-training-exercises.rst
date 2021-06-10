@@ -7,16 +7,16 @@ Poshi Training Exercises
   
 1. Follow the tutorial in the `Learn Poshi section`_. Your portal is already located at ``/home/me/dev/projects/liferay-portal``.
 
-2. Understand and explain what the following scripts do (level: 2.1 to 2.4 = easy, 2.5 to 2.8 = moderate). Go to the `App Builder test directory`_. Some of these tests are available in AppBuilder.testcase or shared/SharedAppBuilder.testcase.
+2. Understand and explain what the following scripts do (level: 2.1 to 2.4 = easy, 2.5 to 2.8 = moderate). Go to the `Forms test directory`_. These tests are available in Forms.testcase.
 
-  #. test ValidateEmptyStateOfAppsListingScreen
-  #. test AddSimpleFormViewWithDateField
-  #. test DeleteFormViewThroughActionMenu
-  #. test FormViewSearchByTerm
-  #. test AddSimpleTableView
-  #. test CreateRemoveUpdateDeleteEntriesOfStandaloneApp
-  #. test DeployAppChoosingBetweenDifferentTableViews
-  #. test PublishAppAsWidgetAndSubmitEntry
+  #. test AddFormWithDuplicateTextFields
+  #. test CanBeUnpublished
+  #. test ConfigureAutosave
+  #. test PagesCanBeReordered
+  #. test EditAllFormFieldsTypesUsedBySystemSettings
+  #. test SelectAndRemoveMultipleOptionsInSelectFromListField
+  #. test SubmitFormAndViewEmailNotification
+  #. test SubmitFormWithAllFieldTypesAndThreePages
     
 3. Run an existing test.
   
@@ -24,7 +24,7 @@ Poshi Training Exercises
   #. Go to the portal home;
   #. Run ``ant -f build-test.xml run-selenium-test -Dtest.class=FILE#TEST_METHOD`` where FILE is the name of the file where the TEST_METHOD is located.
   
-    Example: ``ant -f build-test.xml run-selenium-test -Dtest.class=AppBuilder#AddSimpleFormViewWithDateField``
+    Example: ``ant -f build-test.xml run-selenium-test -Dtest.class=Forms#AddFormWithDuplicateTextFields``
   
   .. tip::
     **How to speed up your test execution**
@@ -108,4 +108,4 @@ Poshi Training Exercises
   
   
 .. _Learn Poshi section: https://qa-compendium.readthedocs.io/en/latest/poshi/index-poshi.html
-.. _App Builder test directory: https://github.com/liferay/liferay-portal/tree/master/modules/apps/app-builder/app-builder-test/src/testFunctional/tests
+.. _Forms test directory: https://github.com/liferay/liferay-portal/tree/master/portal-web/test/functional/com/liferay/portalweb/tests/enduser/webformsanddatalists/forms
